@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    height: 78px;
+}
+
+
+.container {
+    max-width: 1010px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.logo {
+    float: left;
+    padding-top: 23px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.nav-holder {
+    float: right;
+    
+}
+
+.nav {
+    float: left;
+}
+
+.nav-list li,
+.btn-list li {
+    display: inline-block;
+}
+
+.btn-list{
+    float: right;
+    margin-left: 29px;
+    margin-top: 23px;
+}
+
+.nav-list {
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list li {
+    padding-right: 15px;
+}
+
+.button1 {
+    margin: 0 7px;
+    padding: 10px 25px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+}
+
+.button2 {
+    margin: 0 7px;
+    padding: 10px 25px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+ .main {
+    height: 494.83px;
+} 
+
+.hero-title {
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 83px;
+}
+
+.text-holder {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.hero-column {
+    width: 50%;
+    float: left;
+} 
+
+.column {
+    width: 50%;
+    float: right;
+}
+
+.column img {
+    width: 100%;
+    height: 100%;
+}
+
+ul .sec-btn-list {
+    display: inline-block;
+    margin-top: 45px;
+    max-width: 366px;
+}
+
+.sec-btn1 {
+    float: left;
+    padding: 14px 42px;
+    background: #FF9900;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 45px;
+}
+
+.sec-btn2 {
+    float: right;
+    padding: 14px 42px;
+    color: #FF9900;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration-line: underline;
+    margin-top: 45px;
+}
+
+.third {
+    display: block;
+    height: 543px;
+}
+
+.container3 {
+    margin: 0 auto;
+    max-width: 1010px;
+    /* height: 100%; */
+}
+
+.toptxt {
+    margin: 0 auto;
+    height: 108px;
+    max-width: 539px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.middle3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 54px;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+    display: block;
+    width: 240px;
+}
+
+.txt1, 
+.txt2,
+.txt3,
+.txt4 {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.txt11, 
+.txt21,
+.txt31,
+.txt41 {
+    padding-top: 13px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.bottom3 {
+    padding-top: 34px;
+    padding-bottom: 90px;
+}
+
+.txtbottom {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FF9900;
+    max-width: 175px;
+    height: 53px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.footer {
+    height: 308px;
+    margin-bottom: 83px;
+}
+
+.hero-footer {
+    max-width: 1010px;
+    margin: 0 auto;
+    border-top: 3px solid rgba(188, 208, 229, 0.496913);
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 102px;
+}
+
+.logo-holder {
+    max-width: 185px;
+    height: 32px;
+}
+
+.footer-list1 {
+    max-width: 118px;
+    height: 205px;
+    padding-top: 65px;
+    padding-right: 46px;
+}
+
+.footer-list2 {
+    max-width: 131px;
+    height: 205px;
+    padding-top: 65px;
+    padding-right: 1px;
+}
+
+.input-holder {
+    max-width: 325px;
+    height: 205px;
+}
+
+.input {
+    padding-top: 91px;
+    width: 325px;
+    margin-bottom: 21px;
+}
+
+.input1 {
+    width: 325px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.btn-holder {
+    max-width: 131px;
+    height: 39px;
+    background-color: #FF9900;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-list1,
+.footer-list2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #544837;
+}
+
